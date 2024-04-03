@@ -12,15 +12,15 @@ for (let i = 0; i <= 7; i++) {
     const img = new Image();
     const hover = new Image();
     
-    img.src = `lang_${i}.png`;
+    img.src = `./Portfolio/lang_${i}.png`;
 
     if (i == 0) {
         img.classList.add('imageProp');
-        hover.src = `Familiar.png`;
+        hover.src = `./Portfolio/Familiar.png`;
         hover.classList.add('hoverPropFamiliar');
     } else {
         img.classList.add('imageProp');
-        hover.src = `Tried.png`;
+        hover.src = `./Portfolio/Tried.png`;
         hover.classList.add('hoverPropTried');
     }
     

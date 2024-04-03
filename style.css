@@ -83,19 +83,20 @@
         left: 28%;
         right: 28%;
         background-color:black;
+        z-index: 10;
     }
 }
 
 /* body */
 .seperateTopLine {
-    background-image: url("seperateLineTop.png");
+    background-image: url("./Portfolio/seperateLineTop.png");
     background-size: cover;
     padding-top: 4.5%;
     margin-bottom: 3%
 }
 
 .seperateBottomLine {
-    background-image: url("seperateLineBottom.png");
+    background-image: url("./Portfolio/seperateLineBottom.png");
     background-size: cover;
     padding-top: 4.5%;
     margin-bottom: 3%
@@ -109,7 +110,7 @@
 }
 
 .titleBox {
-    background-image: url("logo.png");
+    background-image: url("./Portfolio/logo.png");
     background-size: cover;
     margin-top: 10px;
     padding-top: 13%;
@@ -177,7 +178,7 @@
 }
 
 .drawing {
-    background-image: url("Drawing.png");
+    background-image: url("./Portfolio/Drawing.png");
     background-size: cover;
     margin-top: 30px;
     padding-top: 40%;
