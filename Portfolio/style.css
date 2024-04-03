@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+@media screen and (max-width: 1000px){
+    .bodySetting {
+        background-color:black;
+        color:aliceblue;
+    
+        /* 
+        <uniquifier>: Use a unique and descriptive class name
+        <weight>: Use a value from 200 to 900
+        */
+    
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    /* header */
+    .menu {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .stick {
+        position: fixed;
+        top: 0;
+        left: 5%;
+        right: 5%;
+        background-color:black;
+        z-index: 10;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px){
+    .bodySetting {
+        background-color:black;
+        color:aliceblue;
+    
+        /* 
+        <uniquifier>: Use a unique and descriptive class name
+        <weight>: Use a value from 200 to 900
+        */
+    
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+    
+    /* header */
+    .menu {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .stick {
+        position: fixed;
+        top: 0;
+        left: 28%;
+        right: 28%;
+        background-color:black;
+    }
+}
+
+/* body */
+.seperateTopLine {
+    background-image: url("seperateLineTop.png");
+    background-size: cover;
+    padding-top: 4.5%;
+    margin-bottom: 3%
+}
+
+.seperateBottomLine {
+    background-image: url("seperateLineBottom.png");
+    background-size: cover;
+    padding-top: 4.5%;
+    margin-bottom: 3%
+}
+
+.upperTitle {
+    margin-top: 200px;
+    font-size: small;
+    color: gray;
+    text-align: right;
+}
+
+.titleBox {
+    background-image: url("logo.png");
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 13%;
+}
+
+.subTitleBox {
+    margin-top: 7%;
+}
+
+.skillBox {
+    margin-top: 80px;
+}
+
+.textBox {
+    margin: 3%;
+}
+
+.defaultText {
+    line-height: 25px;
+}
+
+/* Skills */
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.imageProp {
+    filter: opacity(1);
+    position: absolute
+}
+
+.hoverPropFamiliar {
+    filter: opacity(0);
+}
+
+.hoverPropFamiliar:hover {
+    filter: opacity(0.8)
+}
+
+.hoverPropTried {
+    filter: opacity(0);
+}
+
+.hoverPropTried:hover {
+    filter: opacity(0.8)
+}
+
+.link { animation-duration: 3s; animation-name: rainbowLink; animation-iteration-count: infinite; } 
+@keyframes rainbowLink {     
+    0% { color: #ff2a2a; }
+    15% { color: #ff7a2a; }
+    30% { color: #ffc52a; }
+    45% { color: #43ff2a; }
+    60% { color: #2a89ff; }
+    75% { color: #202082; }
+    90% { color: #6b2aff; } 
+    100% { color: #e82aff; }
+}
+
+/* others */
+.otherBox {
+    margin-top: 80px;
+}
+
+.drawing {
+    background-image: url("Drawing.png");
+    background-size: cover;
+    margin-top: 30px;
+    padding-top: 40%;
+}
+
+
+/* margin */
+.emptySpaceBig {
+    margin-top: 100px;
+}
+
+.emptySpaceSmall {
+    margin-top: 50px;
+}
