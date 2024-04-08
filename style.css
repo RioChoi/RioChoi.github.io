@@ -36,8 +36,8 @@
     .stick {
         position: fixed;
         top: 0;
-        left: 5%;
-        right: 5%;
+        left: 8%;
+        right: 8%;
         background-color:black;
         z-index: 10;
     }
@@ -85,6 +85,11 @@
         background-color:black;
         z-index: 10;
     }
+}
+
+/* 스크롤을 부드럽게 */
+html{
+    scroll-behavior: smooth;
 }
 
 /* body */
@@ -175,6 +180,17 @@
 /* others */
 .otherBox {
     margin-top: 80px;
+}
+
+.contactBox {
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: small;
+    color: gray;
 }
 
 .drawing {
